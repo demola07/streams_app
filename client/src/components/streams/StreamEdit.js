@@ -8,12 +8,15 @@ class StreamEdit extends Component {
 	}
 
 	render() {
-		console.log(this.props.stream)
-		return (
-			<div>
-				<h1>{this.props.stream.title}</h1>
-			</div>
-		)
+		if (!this.props.stream) {
+			return <div>Loading....</div>
+		} else {
+			return (
+				<div>
+					<h1>{this.props.stream.title}</h1>
+				</div>
+			)
+		}
 	}
 }
 
