@@ -1,9 +1,15 @@
 {
   "streams": [
     {
-      "title": "My first stream",
-      "description": "This is the first test stream",
-      "id": 1
+      "title": "This is a node.js for beginners",
+      "description": "Learn node here for totally new devs looking for a career in backend development",
+      "id": 3
+    },
+    {
+      "title": "Me streaming component reuse",
+      "description": "We used one component for two purposes",
+      "userId": "110835590988573219532",
+      "id": 4
     }
   ]
 }
